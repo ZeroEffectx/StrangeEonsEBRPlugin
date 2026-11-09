@@ -1,0 +1,89 @@
+### General Settings for Earthborne Rangers
+
+HorizontalSpacer-tag = hs
+HorizontalSpacer-tag-replacement = <image res://ebr/images/empty1x1.png 0.12in 1pt>
+HugeVerticalSpacer-tag = hvs
+HugeVerticalSpacer-tag-replacement = <image res://ebr/images/empty1x1.png 1pt 7.5pt>
+ExtraLargeVerticalSpacer-tag = evs
+ExtraLargeVerticalSpacer-tag-replacement = <image res://ebr/images/empty1x1.png 1pt 5.0pt>
+LargeVerticalSpacer-tag = lvs
+LargeVerticalSpacer-tag-replacement = <image res://ebr/images/empty1x1.png 1pt 3.0pt>
+VerticalSpacer-tag = vs
+VerticalSpacer-tag-replacement = <image res://ebr/images/empty1x1.png 1pt 1.5pt>
+SmallVerticalSpacer-tag = svs
+SmallVerticalSpacer-tag-replacement = <image res://ebr/images/empty1x1.png 1pt 0.5pt>
+
+## Style Tags
+
+# Aspect tags
+Fitness-tag = fit
+Fitness-tag-replacement = <family "Avenir Black"><size 19.0><colour #961d21>FIT</colour></size></family>
+Focus-tag = foc
+Focus-tag-replacement = <family "Avenir Black"><size 19.0><colour #264178>FOC</colour></size></family>
+Awareness-tag = awa
+Awareness-tag-replacement = <family "Avenir Black"><size 19.0><colour #3b7b48>AWA</colour></size></family>
+Spirit-tag = spi
+Spirit-tag-replacement = <family "Avenir Black"><size 19.0><colour #e2841b>SPI</colour></size></family>
+
+# Approach icon tags
+Connection-tag = cnn
+Connection-tag-replacement = <size 19.0><ebrs>c</ebrs></size>
+Conflict-tag = cnf
+Conflict-tag-replacement = <size 19.0><ebrs>f</ebrs></size>
+Exploration-tag = exp
+Exploration-tag-replacement = <size 19.0><ebrs>n</ebrs></size>
+Reason-tag = rea
+Reason-tag-replacement = <size 19.0><ebrs>r</ebrs></size>
+
+# Tokens and values tags
+Progress-tag = pro
+Progress-tag-replacement = <ebrs>P</ebrs>
+Harm-tag = har
+Harm-tag-replacement = <ebrs>H</ebrs>
+Presence-tag = pre
+Presence-tag-replacement = <ebrs>p</ebrs>
+
+# Challenge effect tags
+Crest-tag = cre
+Crest-tag-replacement = <ebrs>C</ebrs>
+Sun-tag = sun
+Sun-tag-replacement = <ebrs>S</ebrs>
+Mountain-tag = mou
+Mountain-tag-replacement = <ebrs>M</ebrs>
+Shuffle-tag = shu
+Shuffle-tag-replacement = <ebrs>F</ebrs>
+
+# Triggered abilities tags
+Exhaust-tag = exh
+Exhaust-tag-replacement = <bb>Exhaust:</bb>
+Response-tag = res
+Response-tag-replacement = <bb>Response:</bb>
+Plus-tag = plu
+Plus-tag-replacement = <bb>+</bb>
+
+#Misc tags
+RangerToken-tag = tok
+RangerToken-tag-replacement = <ebrs>E</ebrs>
+PerRanger-tag = per
+PerRanger-tag-replacement = <ebrs>R</ebrs>
+IfThen-tag = ift
+IfThen-tag-replacement = <ebrs>I</ebrs>
+Journal-tag = jou
+Journal-tag-replacement = <ebrs><b>J</b></ebrs>
+
+# Font tags
+BoldBody-tag = bb
+BoldBody-style = FAMILY: { Eons.namedObjects.EBRObject.boldBodyFamily }; SIZE: {Eons.namedObjects.EBRObject.boldBodyFontSize}; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.boldBodyFontSpacing}; TRACKING: {Eons.namedObjects.EBRObject.boldBodyFontTracking};
+EBRSymbol-tag = ebrs
+EBRSymbol-style = FAMILY: { Eons.namedObjects.EBRObject.symbolFamily }; SIZE: {Eons.namedObjects.EBRObject.symbolSize}; WEIGHT: WEIGHT_REGULAR;
+
+# Replacement tags
+Copyright-tag = cop
+Copyright-tag-replacement = \u00a9
+BulletPoint-tag = bul
+BulletPoint-tag-replacement = \u2022
+
+# Challenge effect tags and styles
+ChallengeEffect-style = FAMILY: {Eons.namedObjects.EBRObject.standardTextFamily}; SIZE: {12.0}; WEIGHT: WEIGHT_BOLD; WIDTH: {1.03}; FOREGROUND: #FFF4CD
+ChallengeEffect-FlavorText-tag = fl
+ChallengeEffect-FlavorText-style = FAMILY: { Eons.namedObjects.EBRObject.flavorFamily }; SIZE: {Eons.namedObjects.EBRObject.flavorFontSize}; WEIGHT: WEIGHT_REGULAR; POSTURE: OBLIQUE; WIDTH: {Eons.namedObjects.EBRObject.challengeFontSpacing}; FOREGROUND: #E4E4E4

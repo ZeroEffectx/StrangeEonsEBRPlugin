@@ -1,0 +1,99 @@
+### Mission card settings
+## TO DO: Extract all values to variables
+
+# Mission card template
+Path-Moment-Card-Default-template = ebr/overlays/path-moment/lure-moment-background.png
+Path-Moment-Card-TransparentPortrait-portrait-template = ebr/overlays/path-moment/Lure-Moment-Header-Overlay.png
+Path-Moment-Card-TransparentPortrait-portrait-clip-region = 0,0,750,135
+Path-Moment-Card-FlavorPortrait-portrait-template = ebr/overlays/path-moment/Lure-Moment-Flavor-Overlay.png
+Path-Moment-Card-FlavorPortrait-portrait-clip-region = 0,115,750,935
+Path-Moment-Card-FlavorPortrait-portrait-pany = -300
+Path-Moment-Card-FlavorPortrait-portrait-scale-minimum = true
+Path-Moment-Card-BackgroundPortrait-portrait-template = ebr/overlays/path-moment/lure-moment-background.png
+Path-Moment-Card-BackgroundPortrait-portrait-clip-region = 0,0,750,1050
+Path-Moment-Card-SetIcon-portrait-template = ebr/images/empty1x1.png
+Path-Moment-Card-SetIcon-portrait-clip-region = 20,15,89,89
+
+# Mission card title
+Path-Moment-Card-Title-region = 25,30,700,56
+Path-Moment-Card-Title-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: {Eons.namedObjects.EBRObject.missionTitleFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: 1.0; FOREGROUND: #F8E5B5
+Path-Moment-Card-Title-alignment = center, top
+
+# Mission card type
+Path-Moment-Card-Type-region = 227,75,296,32
+Path-Moment-Card-Type-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTypeFamily}; SIZE: {Eons.namedObjects.EBRObject.missionCardTypeFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardTypeSpacing}; FOREGROUND: #F8E5B5
+Path-Moment-Card-Type-alignment = center, top
+
+### Uses Token Box ###
+Path-Moment-Card-Token-Box-region = 643,141,107,112
+Path-Moment-Card-Token-Value-region = 650,158,74,56
+Path-Moment-Card-Token-Value-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: 34.2; WEIGHT: WEIGHT_BOLD; WIDTH: 1.0; FOREGROUND: #c07b2d
+Path-Moment-Card-Token-Value-alignment = center, bottom
+Path-Moment-Card-Token-Name-region = 650,212,80,24
+Path-Moment-Card-Token-Name-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTokenNameFamily}; SIZE: {Eons.namedObjects.EBRObject.pathCardTokenNameFontSize}; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.rangerCardTokenNameSpacing}; FOREGROUND: #c07b2d
+Path-Moment-Card-Token-Name-alignment = center, bottom
+
+### Path Moment Flavor Text ###
+Path-Moment-Card-Flavor-Text-region = 52, 140, 646, 200
+Path-Moment-Card-Flavor-Text-Tokens-region = 52,140,578,200
+Path-Moment-Card-Flavor-Text-style = FAMILY: {Eons.namedObjects.EBRObject.bodyFamily}; SIZE: {Eons.namedObjects.EBRObject.bodyFontSize}; WEIGHT: WEIGHT_REGULAR; POSTURE: OBLIQUE; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #F8E5B5
+Path-Moment-Card-Flavor-Text-alignment = center, middle
+
+# Mission card text
+Path-Moment-Card-Text-region = 42,490,656,500
+Path-Moment-Card-Text-style = FAMILY: {Eons.namedObjects.EBRObject.bodyFamily}; SIZE: {Eons.namedObjects.EBRObject.bodyFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #231F20
+Path-Moment-Card-Text-alignment = left, top
+
+## Challenge effects
+#Used to set where to draw the first challenge box & its text
+Path-Moment-Card-Challenge-Start-region = 52,869,646,137
+Path-Moment-Card-Challenge-Text-Start-region = 182,877,498,120
+#Sets the amount to "push up" each challenge effect drawn after the first
+Path-Moment-Card-Challenge-Height = 135
+
+Path-Moment-Card-Challenge-style = FAMILY: {Eons.namedObjects.EBRObject.challengeFamily}; SIZE: {Eons.namedObjects.EBRObject.challengeFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.challengeFontSpacing}; FOREGROUND: #000000
+Path-Moment-Card-Challenge-alignment = left, middle
+
+### Artist credit ###
+Path-Moment-Card-Artist-Icon-region = 32,1016,21,18
+Path-Moment-Card-Artist-region = 54,1010,200,26
+Path-Moment-Card-Artist-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardFooterFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardFooterFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardFooterFontSpacing}; FOREGROUND: #F4E6C7
+Path-Moment-Card-Artist-alignment = left, bottom
+
+### Set info ###
+Path-Moment-Card-Set-Info-region = 265,1009,220,32
+Path-Moment-Card-Set-Info-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTokenNameFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardSetInfoFontSize}; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.rangerCardSetInfoSpacing}; FOREGROUND: #F4E6C7
+Path-Moment-Card-Set-Info-alignment = center, top
+
+### Copyright ###
+Path-Moment-Card-Copyright-region = 612,1012,120,26
+Path-Moment-Card-Copyright-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardFooterFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardFooterFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardFooterFontSpacing}; FOREGROUND: #f4e6c7
+Path-Moment-Card-Copyright-alignment = right, bottom
+
+# Mission card style tags
+PathMomentCard-FlavorText-tag = fl
+PathMomentCard-FlavorText-style = FAMILY: { Eons.namedObjects.EBRObject.bodyFamily }; SIZE: {Eons.namedObjects.EBRObject.bodyFontSize}; WEIGHT: WEIGHT_REGULAR; POSTURE: OBLIQUE; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #7B5845
+
+PathMomentCard-ChallengeFlavorText-tag = fl
+PathMomentCard-ChallengeFlavorText-style = FAMILY: { Eons.namedObjects.EBRObject.bodyFamily }; SIZE: {Eons.namedObjects.EBRObject.challengeFontSize}; WEIGHT: WEIGHT_REGULAR; POSTURE: OBLIQUE; WIDTH: {Eons.namedObjects.EBRObject.challengeFontSpacing}; FOREGROUND: #FFF4CD
+
+PathMomentCard-ChallengeObjectiveText-tag = objective
+PathMomentCard-ChallengeObjectiveText-style = FAMILY: { Eons.namedObjects.EBRObject.bodyFamily }; SIZE: {Eons.namedObjects.EBRObject.bodyFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #E7C7A7
+PathMomentCard-ChallengeObjectiveText-alignment = center, top
+
+PathMomentCard-ChoiceText-tag = choice
+PathMomentCard-ChoiceText-style = FAMILY: { Eons.namedObjects.EBRObject.boldBodyFamily }; SIZE: {Eons.namedObjects.EBRObject.bodyFontSize}; WEIGHT: WEIGHT_BOLD;  WIDTH: 0.0; FOREGROUND: #951e21
+
+
+# Mission card element tags
+PathMomentCard-HorizontalBar-tag = hbar
+PathMomentCard-HorizontalBar-tag-replacement = <image res://ebr/images/Horizontal-Bar-Mission.png>
+
+PathMomentCard-LongHorizontalBar-tag = lbar
+PathMomentCard-LongHorizontalBar-tag-replacement = <image res://ebr/images/Horizontal-Bar-Mission-Long.png>
+
+PathMomentCard-YouChooseBox-tag = you-choose
+PathMomentCard-YouChooseBox-tag-replacement = <image res://ebr/images/You-Choose-Box.png>
+
+PathMomentCard-RangersChooseBox-tag = r-choose
+PathMomentCard-RangersChooseBox-tag-replacement = <image res://ebr/images/Rangers-Choose-Box.png>

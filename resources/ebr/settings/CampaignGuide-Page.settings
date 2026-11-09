@@ -1,0 +1,36 @@
+### Campaign Guide Page settings
+
+# Campaign Guide Page template
+CampaignGuide-Page-Default-template = ebr/templates/CampaignGuidePage.png
+
+# Campaign Guide Page Number Box
+CampaignGuide-Page-NumberBox-Even-region = 0,1639,82,66
+CampaignGuide-Page-NumberBox-Odd-region = 1194,1639,82,66
+
+CampaignGuide-Page-NumberText-Even-region = 26,1648,46,36
+CampaignGuide-Page-NumberText-Odd-region = 1208,1648,46,36
+
+CampaignGuide-Page-NumberText-style = FAMILY: {Eons.namedObjects.EBRObject.boldBodyFamily}; SIZE: 15.0; WEIGHT: WEIGHT_BOLD; WIDTH: 1.0; FOREGROUND: #FFFFFF
+CampaignGuide-Page-NumberText-alignment = left, top
+
+# Campaign Guide Page Text Regions
+CampaignGuide-Page-Text-Left-region = 85,80,545,1620
+CampaignGuide-Page-Text-Right-region = 646,80,545,1620
+
+CampaignGuide-Page-Text-style = FAMILY: {Eons.namedObjects.EBRObject.bodyFamily}; SIZE: {Eons.namedObjects.EBRObject.guideBodyFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #000000
+CampaignGuide-Page-Text-alignment = left, top
+
+# Campaign Guide style tags
+CampaignGuide-Page-ChooseText-style = FAMILY: {Eons.namedObjects.EBRObject.boldBodyFamily}; SIZE: {Eons.namedObjects.EBRObject.guideBodyFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #000000
+CampaignGuide-Page-ChooseText-alignment = center, top
+
+CampaignGuide-Page-GreyText-style = FAMILY: {Eons.namedObjects.EBRObject.boldBodyFamily}; SIZE: {Eons.namedObjects.EBRObject.guideBodyFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #000000
+CampaignGuide-Page-GreyText-alignment = left, top
+
+CampaignGuide-Page-Header-tag = header
+CampaignGuide-Page-Header-style = FAMILY: {Eons.namedObjects.EBRObject.guideHeaderFamily}; SIZE: {Eons.namedObjects.EBRObject.guideHeaderFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #000c62
+CampaignGuide-Page-Header-alignment = left, top
+
+CampaignGuide-Page-SubHeader-tag = subheader
+CampaignGuide-Page-SubHeader-style = FAMILY: {Eons.namedObjects.EBRObject.guideHeaderFamily}; SIZE: {Eons.namedObjects.EBRObject.guideHeaderFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #e47901
+CampaignGuide-Page-SubHeader-alignment = left, top

@@ -1,0 +1,103 @@
+#
+# A settings file consists of a set of (key, value) pairs of setting names
+# and their associated values. Each pair appears on its own line and is
+# separated by an equals sign (=). Long lines can be split into multiple lines
+# by ending each line but the last with a backslash (\). The backslash can
+# also be used to escape special characters; for example, a key name can include
+# an equals sign if it is escaped (\=). If the first non-blank character in a
+# line is a number sign (#), then the entire line is treated as a comment and
+# will be ignored.
+#
+
+# Card Background
+Location-Card-Default-template = ebr/templates/Location-Card-Front.png
+
+# Portraits
+Location-Card-Portrait-portrait-template = ebr/default-portraits/EmptyCard.png
+Location-Card-Portrait-portrait-clip-region = 125,0,925,750
+Location-Card-BackPortrait-portrait-template = ebr/default-portraits/EmptyCard.png
+Location-Card-BackPortrait-portrait-clip-region = 0,135,1050,615
+
+# Title
+Location-Card-Front-Title-region = 25,25,56,600
+Location-Card-Front-Title-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: {Eons.namedObjects.EBRObject.titleFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: 1.0; FOREGROUND: #ebd0b0
+Location-Card-Front-Title-alignment = right, top
+
+Location-Card-Back-Title-region = 135,30,800,56
+Location-Card-Back-Title-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: {Eons.namedObjects.EBRObject.titleFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: 1.0; FOREGROUND: #ebd0b0
+Location-Card-Back-Title-alignment = left, top
+
+# Card type
+Location-Card-Front-Type-region = 71,25,32,600
+Location-Card-Front-Type-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTypeFamily}; SIZE: {Eons.namedObjects.EBRObject.missionCardTypeFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardTypeSpacing}; FOREGROUND: #ebd0b0
+Location-Card-Front-Type-alignment = right, top
+
+Location-Card-Back-Type-region = 135,71,800,32
+Location-Card-Back-Type-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTypeFamily}; SIZE: {Eons.namedObjects.EBRObject.missionCardTypeFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardTypeSpacing}; FOREGROUND: #ebd0b0
+Location-Card-Back-Type-alignment = left, top
+
+# Path card threshold text boxes
+Location-Card-Presence-region = 21,646,84,84
+Location-Card-Presence-Text-region = 28,658,70,60
+Location-Card-Presence-PerRanger-Text-region = 50,669,40,50
+Location-Card-Progress-region = 950,-60,84,84
+Location-Card-Threshold-Text-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: 34.0; WEIGHT: WEIGHT_BOLD; TRACKING: -0.05; WIDTH: 1.0; FOREGROUND: #FFFFFF
+Location-Card-Threshold-Text-alignment = center, bottom
+Location-Card-Threshold-PerRanger-Text-style = FAMILY: {Eons.namedObjects.EBRObject.symbolFamily}; SIZE: 20.0; WEIGHT: WEIGHT_BOLD; WIDTH: 1.0; FOREGROUND: #FFFFFF
+Location-Card-Threshold-PerRanger-Text-alignment = left, bottom
+
+
+# Rules Text
+Location-Card-Rules-Text-region = 155,20,875,750
+Location-Card-Rules-Text-style = FAMILY: {Eons.namedObjects.EBRObject.bodyFamily}; SIZE: {Eons.namedObjects.EBRObject.bodyFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #000000
+Location-Card-Rules-Text-alignment = left, top
+
+## Challenge effects
+#Used to set where to draw the first challenge box & its text
+Location-Card-Challenge-Start-region = 125,564,925,137
+Location-Card-Challenge-Text-Start-region = 255,572,795,120
+#Sets the amount to "push up" each challenge effect drawn after the first
+Location-Card-Challenge-Height = 135
+
+Location-Card-Challenge-style = FAMILY: {Eons.namedObjects.EBRObject.challengeFamily}; SIZE: {Eons.namedObjects.EBRObject.challengeFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.challengeFontSpacing}; FOREGROUND: #FFF4CD
+Location-Card-Challenge-alignment = left, middle
+
+# Location Icon
+Location-Card-Location-Icon-region = 30,23,89,89
+Location-Card-LocationIcon-portrait-template = ebr/images/empty1x1.png
+Location-Card-LocationIcon-portrait-clip-region = 30,23,89,89
+
+# Arrival Instructions Text
+Location-Card-Arrival-Instructions-region = 505,185,460,505
+Location-Card-Arrival-Instructions-style = FAMILY: {Eons.namedObjects.EBRObject.bodyFamily}; SIZE: 14.0; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #000000
+Location-Card-Arrival-Instructions-alignment = left, top
+
+LocationCard-HeaderText-tag = header
+LocationCard-HeaderText-style = FAMILY: {Eons.namedObjects.EBRObject.challengeFamily}; SIZE: 14.0; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #914E2D
+LocationCard-HeaderText-alignment = center, top
+
+
+# Arrival Journal Text
+Location-Card-Arrival-Journal-Number-region = 667,147,140,30
+Location-Card-Arrival-Journal-Number-style = FAMILY: {Eons.namedObjects.EBRObject.bodyFamily}; SIZE: 12.0; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #914E2D
+Location-Card-Arrival-Journal-Number-alignment = center, middle
+
+# Artist credit
+Location-Card-Artist-Icon-region = 157,716,21,18
+Location-Card-Artist-region = 179,710,200,26
+Location-Card-Artist-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardFooterFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardFooterFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardFooterFontSpacing}; FOREGROUND: #6d6e71
+Location-Card-Artist-alignment = left, bottom
+
+# Set info
+Location-Card-Set-Info-region = 434,709,309,32
+Location-Card-Set-Info-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTokenNameFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardSetInfoFontSize}; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.rangerCardSetInfoSpacing}; FOREGROUND: #6d6e71
+Location-Card-Set-Info-alignment = center, top
+
+# Copyright
+Location-Card-Copyright-region = 888,712,120,26
+Location-Card-Copyright-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardFooterFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardFooterFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardFooterFontSpacing}; FOREGROUND: #6d6e71
+Location-Card-Copyright-alignment = right, bottom
+
+# Mission card element tags
+LocationCard-HorizontalBar-tag = hbar
+LocationCard-HorizontalBar-tag-replacement = <image res://ebr/images/Horizontal-Bar-Location.png>

@@ -1,0 +1,67 @@
+### Mission card settings
+## TO DO: Extract all values to variables
+
+# Mission card template
+Mission-Card-Default-template = ebr/templates/Mission-ValleyRegular.png
+
+# Default portrait
+Mission-Card-Portrait-portrait-template = ebr/templates/Mission-ValleyRegular.png
+Mission-Card-Portrait-portrait-clip-region = 0,0,750,1050
+
+# Mission card title
+Mission-Card-Title-region = 190,30,356,56
+Mission-Card-Title-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: {Eons.namedObjects.EBRObject.missionTitleFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: 1.0; FOREGROUND: #E7C7A7
+Mission-Card-Title-alignment = center, top
+
+# Mission card type
+Mission-Card-Type-region = 220,75,296,32
+Mission-Card-Type-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTypeFamily}; SIZE: {Eons.namedObjects.EBRObject.missionCardTypeFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardTypeSpacing}; FOREGROUND: #E7C7A7
+Mission-Card-Type-alignment = center, top
+
+# Mission card text
+Mission-Card-Text-region = 52,273,646,733
+Mission-Card-Tall-Text-region = 52,141,646,865
+Mission-Card-Text-style = FAMILY: {Eons.namedObjects.EBRObject.bodyFamily}; SIZE: {Eons.namedObjects.EBRObject.bodyFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #231F20
+Mission-Card-Text-alignment = left, top
+
+# Mission card objective
+Mission-Card-Objective-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: {Eons.namedObjects.EBRObject.missionCardObjectiveFontSize}; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #8f563d
+Mission-Card-Objective-alignment = center, top
+
+## Challenge effects
+#Used to set where to draw the first challenge box & its text
+Mission-Card-Challenge-Start-region = 0,869,750,137
+Mission-Card-Challenge-Text-Start-region = 130,877,602,120
+#Sets the amount to "push up" each challenge effect drawn after the first
+Mission-Card-Challenge-Height = 135
+
+Mission-Card-Challenge-style = FAMILY: {Eons.namedObjects.EBRObject.challengeFamily}; SIZE: {Eons.namedObjects.EBRObject.challengeFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.challengeFontSpacing}; FOREGROUND: #FFF4CD
+Mission-Card-Challenge-alignment = left, middle
+
+# Mission card set info
+Mission-Card-Set-Info-region = 265,1009,220,32
+Mission-Card-Set-Info-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTokenNameFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardSetInfoFontSize}; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.rangerCardSetInfoSpacing}; FOREGROUND: #7B5845
+Mission-Card-Set-Info-alignment = center, top
+
+# Mission card copyright
+Mission-Card-Copyright-region = 612,1012,120,26
+Mission-Card-Copyright-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardFooterFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardFooterFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardFooterFontSpacing}; FOREGROUND: #7B5845
+Mission-Card-Copyright-alignment = right, bottom
+
+# Mission card style tags
+MissionCard-FlavorText-tag = fl
+MissionCard-FlavorText-style = FAMILY: { Eons.namedObjects.EBRObject.bodyFamily }; SIZE: {Eons.namedObjects.EBRObject.bodyFontSize}; WEIGHT: WEIGHT_REGULAR; POSTURE: OBLIQUE; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #7B5845
+
+MissionCard-ChallengeFlavorText-tag = fl
+MissionCard-ChallengeFlavorText-style = FAMILY: { Eons.namedObjects.EBRObject.bodyFamily }; SIZE: {Eons.namedObjects.EBRObject.challengeFontSize}; WEIGHT: WEIGHT_REGULAR; POSTURE: OBLIQUE; WIDTH: {Eons.namedObjects.EBRObject.challengeFontSpacing}; FOREGROUND: #FFF4CD
+
+MissionCard-ChallengeObjectiveText-tag = objective
+MissionCard-ChallengeObjectiveText-style = FAMILY: { Eons.namedObjects.EBRObject.bodyFamily }; SIZE: {Eons.namedObjects.EBRObject.bodyFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #E7C7A7
+MissionCard-ChallengeObjectiveText-alignment = center, top
+
+# Mission card element tags
+MissionCard-HorizontalBar-tag = hbar
+MissionCard-HorizontalBar-tag-replacement = <image res://ebr/images/Horizontal-Bar-Mission.png>
+
+MissionCard-LongHorizontalBar-tag = lbar
+MissionCard-LongHorizontalBar-tag-replacement = <image res://ebr/images/Horizontal-Bar-Mission-Long.png>

@@ -1,0 +1,81 @@
+#
+# A settings file consists of a set of (key, value) pairs of setting names
+# and their associated values. Each pair appears on its own line and is
+# separated by an equals sign (=). Long lines can be split into multiple lines
+# by ending each line but the last with a backslash (\). The backslash can
+# also be used to escape special characters; for example, a key name can include
+# an equals sign if it is escaped (\=). If the first non-blank character in a
+# line is a number sign (#), then the entire line is treated as a comment and
+# will be ignored.
+#
+
+# Card Background
+Weather-Card-Default-template = ebr/templates/Path-Card.png
+
+# Weather Art
+# Defaulting to transparent since weather cards use vector-like graphic images instead of paintings for art
+Weather-Card-TransparentPortrait-portrait-template = ebr/default-portraits/TransparentCard.png
+Weather-Card-TransparentPortrait-portrait-clip-region = 0,0,750, 1050
+
+# Card title
+Weather-Card-Title-region = 190,30,356,56
+Weather-Card-Title-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: {Eons.namedObjects.EBRObject.missionTitleFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: 1.0; FOREGROUND: #F8E5B5
+Weather-Card-Title-alignment = center, top
+
+# Card type
+Weather-Card-Type-region = 220,75,296,32
+Weather-Card-Type-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTypeFamily}; SIZE: {Eons.namedObjects.EBRObject.missionCardTypeFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardTypeSpacing}; FOREGROUND: #F8E5B5
+Weather-Card-Type-alignment = center, top
+
+# Testing some settings stuff
+
+# Token box
+Weather-Card-Token-Box-region = 644,121,107,112
+Weather-Card-Token-Value-region = 651,138,74,56
+Weather-Card-Token-Value-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: 34.2; WEIGHT: WEIGHT_BOLD; WIDTH: 1.0; FOREGROUND: #ebd0b0
+Weather-Card-Token-Value-alignment = center, bottom
+Weather-Card-Token-Name-region = 651,192,80,24
+Weather-Card-Token-Name-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTokenNameFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardTokenNameFontSize}; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.rangerCardTokenNameSpacing}; FOREGROUND: #ebd0b0
+Weather-Card-Token-Name-alignment = center, bottom
+
+# Card text
+Weather-Card-Text-region = 38,364,682,636
+Weather-Card-Text-style = FAMILY: {Eons.namedObjects.EBRObject.bodyFamily}; SIZE: {Eons.namedObjects.EBRObject.bodyFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #000000
+Weather-Card-Text-alignment = left, top
+
+## Challenge effects
+#Used to set where to draw the first challenge box & its text
+Weather-Card-Challenge-Start-region = 0,864,750,137
+Weather-Card-Challenge-Text-Start-region = 130,872,602,120
+#Sets the amount to "push up" each challenge effect drawn after the first
+Weather-Card-Challenge-Height = 135
+
+Weather-Card-Challenge-style = FAMILY: {Eons.namedObjects.EBRObject.challengeFamily}; SIZE: {Eons.namedObjects.EBRObject.challengeFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.challengeFontSpacing}; FOREGROUND: #FFF4CD
+Weather-Card-Challenge-alignment = left, middle
+
+# Weather card artist credit
+Weather-Card-Artist-Icon-region = 32,1016,21,18
+Weather-Card-Artist-region = 54,1010,200,26
+Weather-Card-Artist-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardFooterFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardFooterFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardFooterFontSpacing}; FOREGROUND: #6d6e71
+Weather-Card-Artist-alignment = left, bottom
+
+# Mission card set info
+Weather-Card-Set-Info-region = 250,1009,250,32
+Weather-Card-Set-Info-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTokenNameFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardSetInfoFontSize}; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.rangerCardSetInfoSpacing}; FOREGROUND: #6d6e71
+Weather-Card-Set-Info-alignment = center, top
+
+# Path card copyright
+Weather-Card-Copyright-region = 598,1012,120,26
+Weather-Card-Copyright-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardFooterFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardFooterFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardFooterFontSpacing}; FOREGROUND: #6d6e71
+Weather-Card-Copyright-alignment = right, bottom
+
+##### Custom Style Tags #####
+Weather-Card-FlavorText-tag = fl
+Weather-Card-FlavorText-style = FAMILY: { Eons.namedObjects.EBRObject.bodyFamily }; SIZE: {Eons.namedObjects.EBRObject.bodyFontSize}; WEIGHT: WEIGHT_REGULAR; POSTURE: OBLIQUE; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #7B5845
+
+Weather-Card-ChallengeFlavorText-tag = cfl
+Weather-Card-ChallengeFlavorText-style = FAMILY: { Eons.namedObjects.EBRObject.bodyFamily }; SIZE: {Eons.namedObjects.EBRObject.challengeFontSize}; WEIGHT: WEIGHT_REGULAR; POSTURE: OBLIQUE; WIDTH: {Eons.namedObjects.EBRObject.challengeFontSpacing}; FOREGROUND: #000000
+
+##### Custom Content Tags #####
+Weather-Card-HorizontalBar-tag = hbar
+Weather-Card-HorizontalBar-tag-replacement = <image res://ebr/overlays/weather/Horizontal-Bar-Weather.png>

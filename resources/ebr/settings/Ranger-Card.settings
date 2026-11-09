@@ -1,0 +1,125 @@
+### Ranger card settings
+## TO DO: Extract all values to variables
+
+# Ranger card template
+Ranger-Card-Default-template = ebr/templates/AWA-Card.png
+Ranger-Card-Back-Default-template = ebr/templates/Ranger-Card-Back.png
+
+# Ranger card default portrait
+Ranger-Card-portrait-template = ebr/default-portraits/EmptyCard.png
+Ranger-Card-portrait-clip-region = 0,0,750, 1050
+
+# Ranger card title
+Ranger-Card-Title-region = 145,54,500,50
+Ranger-Card-Title-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: {Eons.namedObjects.EBRObject.titleFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: 1.0; FOREGROUND: #000000
+Ranger-Card-Title-alignment = left, top
+
+# Ranger card cost
+Ranger-Card-Cost-region = 27,27,90,100
+Ranger-Card-Cost-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: 38.0; WEIGHT: WEIGHT_BOLD; WIDTH: 1.0; FOREGROUND: #FFFFFF
+Ranger-Card-Cost-alignment = center, bottom
+
+# Ranger card cost aspect
+Ranger-Card-Aspect-region = 39,104,70,400
+Ranger-Card-Aspect-style = FAMILY: {Eons.namedObjects.EBRObject.boldBodyFamily}; SIZE: 14.0; WEIGHT: WEIGHT_BOLD; WIDTH: 1.0; FOREGROUND: #FFFFFF
+Ranger-Card-Aspect-alignment = center, top
+
+# Ranger card type
+Ranger-Card-Type-region = 146,99,500,40
+Ranger-Card-Type-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTypeFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardTypeFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardTypeSpacing}; FOREGROUND: #000000
+Ranger-Card-Type-alignment = left, top
+
+# Ranger card equip pips
+Ranger-Card-Equip-Value-Icon1-region = 594,107,17,17
+Ranger-Card-Equip-Value-Icon2-region = 614,107,17,17
+Ranger-Card-Equip-Value-Icon3-region = 634,107,17,17
+Ranger-Card-Equip-Value-Icon4-region = 654,107,17,17
+Ranger-Card-Equip-Value-Icon5-region = 674,107,17,17
+
+#Ranger card token box
+Ranger-Card-Token-Box-region = 634,199,83,114
+Ranger-Card-Token-Value-region = 641,220,74,56
+Ranger-Card-Token-Value-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: 34.2; WEIGHT: WEIGHT_BOLD; WIDTH: 1.0; FOREGROUND: #FFFFFF
+Ranger-Card-Token-Value-alignment = center, bottom
+Ranger-Card-Token-Name-region = 638,278,80,20
+Ranger-Card-Token-Name-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTokenNameFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardTokenNameFontSize}; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.rangerCardTokenNameSpacing}; FOREGROUND: #FFFFFF
+Ranger-Card-Token-Name-alignment = center, bottom
+
+### Not currently used: Ranger card token box - by aspect
+Ranger-Card-Token-Name-Awareness-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTokenNameFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardTokenNameFontSize}; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.rangerCardTokenNameSpacing}; FOREGROUND: #B1C8AD
+Ranger-Card-Token-Name-Fitness-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTokenNameFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardTokenNameFontSize}; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.rangerCardTokenNameSpacing}; FOREGROUND: #DC9F8A
+Ranger-Card-Token-Name-Focus-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTokenNameFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardTokenNameFontSize}; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.rangerCardTokenNameSpacing}; FOREGROUND: #9B9BC7
+Ranger-Card-Token-Name-Spirit-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTokenNameFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardTokenNameFontSize}; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.rangerCardTokenNameSpacing}; FOREGROUND: #77787B
+Ranger-Card-Token-Name-Awareness-color = #B1C8AD
+Ranger-Card-Token-Name-Fitness-color = #DC9F8A
+Ranger-Card-Token-Name-Focus-color = #9B9BC7
+Ranger-Card-Token-Name-Spirit-color = #77787B
+## Not currently used
+
+# Ranger card threshold
+Ranger-Card-Presence-region = 615,36,84,84
+Ranger-Card-Threshold1-region = 594,593,84,84
+Ranger-Card-Threshold2-region = 493,593,84,84
+
+# Ranger card threshold text boxes
+Ranger-Card-Presence-Text-region = 621,48,70,60
+Ranger-Card-Presence-PerRanger-Text-region = 658,59,40,50
+Ranger-Card-Threshold1-Text-region = 598,605,70,60
+Ranger-Card-Threshold1-PerRanger-Text-region = 635,616,40,50
+Ranger-Card-Threshold2-Text-region = 498,605,70,60
+Ranger-Card-Threshold2-PerRanger-Text-region = 533,616,40,50
+Ranger-Card-Threshold-Text-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: 34.0; WEIGHT: WEIGHT_BOLD; TRACKING: -0.05; WIDTH: 1.0; FOREGROUND: #FFFFFF
+Ranger-Card-Threshold-Text-alignment = center, bottom
+Ranger-Card-Threshold-PerRanger-Text-style = FAMILY: {Eons.namedObjects.EBRObject.symbolFamily}; SIZE: 20.0; WEIGHT: WEIGHT_BOLD; WIDTH: 1.0; FOREGROUND: #FFFFFF
+Ranger-Card-Threshold-PerRanger-Text-alignment = left, bottom
+
+# Ranger card set info
+Ranger-Card-Set-Info-region = 22,747,32,262
+Ranger-Card-Set-Info-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTokenNameFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardSetInfoFontSize}; WEIGHT: WEIGHT_BOLD; TRACKING: {Eons.namedObjects.EBRObject.rangerCardSetInfoTracking}; FOREGROUND: #A7A9AC
+Ranger-Card-Set-Info-alignment = left, bottom
+
+# Ranger card stat requirement
+Ranger-Card-Stat-Req-region = 17,622,40,96
+Ranger-Card-Stat-Req-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardStatReqFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardStatReqFontSize}; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.rangerCardStatReqFontSpacing}; FOREGROUND: #FFFFFF
+Ranger-Card-Stat-Req-alignment = center, bottom
+
+# Ranger card commit icons
+Ranger-Card-Commit-Icon1-region = 0,164,137,123
+Ranger-Card-Commit-Icon2-region = 0,311,137,123
+Ranger-Card-Commit-Icon3-region = 0,459,137,123
+
+# Ranger card text
+Ranger-Card-Text-region = 112,672,565,325
+Ranger-Card-Text-style = FAMILY: {Eons.namedObjects.EBRObject.bodyFamily}; SIZE: {Eons.namedObjects.EBRObject.bodyFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #000000
+Ranger-Card-Text-alignment = left, top
+Ranger-Card-Text-bg-height = 344
+
+## Challenge effects
+#Used to set where to draw the first challenge box & its text
+Ranger-Card-Challenge-Start-region = 84,877,666,128
+Ranger-Card-Challenge-Text-Start-region = 185,885,518,111
+#Sets the amount to "push up" each challenge effect drawn after the first
+Ranger-Card-Challenge-Height = 130
+Ranger-Card-Challenge-style = FAMILY: {Eons.namedObjects.EBRObject.standardTextFamily}; SIZE: {12.0}; WEIGHT: WEIGHT_BOLD; WIDTH: {1.03}; FOREGROUND: #FFF4CD
+Ranger-Card-Challenge-alignment = left, middle
+
+# Ranger card artist credit
+Ranger-Card-Artist-region = 123,1010,200,26
+Ranger-Card-Artist-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardFooterFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardFooterFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardFooterFontSpacing}; FOREGROUND: #FFFFFF
+Ranger-Card-Artist-alignment = left, bottom
+
+# Ranger card copyright
+Ranger-Card-Copyright-region = 612,1014,120,26
+Ranger-Card-Copyright-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardFooterFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardFooterFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardFooterFontSpacing}; FOREGROUND: #FFFFFF
+Ranger-Card-Copyright-alignment = right, bottom
+
+### Body Tags
+# TO DO: Move these into common settings class
+
+# Ranger card style tags
+RangerCard-FlavorText-tag = fl
+RangerCard-FlavorText-style = FAMILY: { Eons.namedObjects.EBRObject.bodyFamily }; SIZE: {Eons.namedObjects.EBRObject.bodyFontSize}; WEIGHT: WEIGHT_REGULAR; POSTURE: OBLIQUE; WIDTH: {Eons.namedObjects.EBRObject.bodyFontWideSpacing}; FOREGROUND: #636466
+
+# Ranger card element tags
+RangerCard-HorizontalBar-tag = hbar
+RangerCard-HorizontalBar-tag-replacement = <image res://ebr/images/Horizontal-Bar-Ranger.png>

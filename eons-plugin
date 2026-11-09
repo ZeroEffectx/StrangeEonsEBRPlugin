@@ -1,0 +1,26 @@
+#
+# Earthborne Rangers Root File
+#
+
+id = CATALOGUEID{687bfe5b-8e67-465b-9374-9822d55ab2f3:2026-10-4-2-2-59-753}
+
+priority = GAME
+ui-languages = en_US
+game-languages = en_US
+
+catalog-name = Earthborne Rangers
+catalog-credit = Davi Paulino
+catalog-description = <p>This plug-in allows the creation of components for \
+    <i><b>Earthborne Rangers</b></i> by Earthborne Games.</p>\n<p>This plug-in is \
+    intended to be used by fans of the game, and <b>any commercial use is not \
+    permitted</b>. Note that this plug-in is not produced or endorsed by EBG, nor do \
+    they provide support for it. <i><b>Earthborne Rangers</b></i> is a registered \
+    trademarks of <i><b>Earthborne Games LLC.</b></i> All rights reserved to their \
+    respective owners.</p>\n<h2>Credits and thanks:</h2>\n<p>Developed by Davi \
+    Paulino.</p>\n<p>Thanks to Christopher G. Jennings for Strange Eons, and to \
+    Andrew Navaro, Andrew Fischer and Earthborne Games for this amazing \
+    game.</p>\n<p>Thanks also to jaqenZann, whose Arkham Horror: The Card Game \
+    plugin was instrumental in making this possible.</p>
+catalog-tags = game
+
+res://ebr/EarthborneRangers.js

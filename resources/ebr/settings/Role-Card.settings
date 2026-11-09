@@ -1,0 +1,28 @@
+### Role card settings
+# Note: Some of the values used for Role cards are copied from Ranger-Card.settings.
+## TO DO: Extract all values to variables
+
+# Role card template
+Role-Card-Default-template = ebr/templates/Role-Card.png
+Role-Card-Back-Default-template = ebr/templates/Ranger-Card-Back.png
+
+# Role card default portrait
+Role-Card-portrait-template = ebr/default-portraits/EmptyCard.png
+Role-Card-portrait-clip-region = 0,0,750, 1050
+
+# Role card title
+Role-Card-Title-region = 101,49,534,60
+Role-Card-Title-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: {Eons.namedObjects.EBRObject.titleFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: 1.0; FOREGROUND: #000000
+Role-Card-Title-alignment = center, middle
+
+# Role card set info
+Role-Card-Set-Info-region = 16,767,42,240
+
+# Role card text
+Role-Card-Text-region = 113,870,558,130
+
+# Role card artist info
+Role-Card-Artist-region = 122,1011,200,26
+
+# Role card copyright
+Role-Card-Copyright-region = 612,1014,120,26

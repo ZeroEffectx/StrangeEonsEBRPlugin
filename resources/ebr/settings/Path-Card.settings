@@ -1,0 +1,99 @@
+### Ranger card settings
+## TO DO: Extract all values to variables
+
+# Path card template
+Path-Card-Default-template = ebr/templates/Path-Card.png
+Path-Card-Back-Default-template = ebr/templates/Path-Card-Back.png
+
+# Path card default portrait
+Path-Card-Portrait-portrait-template = ebr/default-portraits/EmptyCard.png
+Path-Card-Portrait-portrait-clip-region = 0,0,750, 1050
+
+# Path card set portrait
+Path-Card-Set-portrait-template = ebr/images/empty1x1.png
+Path-Card-Set-portrait-clip-region = 20,15,89,89
+
+# Path card title
+Path-Card-Title-region = 124,24,500,50
+Path-Card-Title-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: {Eons.namedObjects.EBRObject.titleFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: 1.0; FOREGROUND: #000000
+Path-Card-Title-alignment = left, top
+
+# Path card type
+Path-Card-Type-region = 122,64,500,40
+Path-Card-Type-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTypeFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardTypeFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardTypeSpacing}; FOREGROUND: #000000
+Path-Card-Type-alignment = left, top
+
+# Journal Entry region
+Path-Card-Journal-Icon-region = 570,23,60,42
+Path-Card-Journal-Icon-style = FAMILY: {Eons.namedObjects.EBRObject.bodyFamily}; SIZE: 8; WIDTH: 1.0; FOREGROUND: #c07b2d
+Path-Card-Journal-Icon-alignment = center, top
+Path-Card-Journal-Text-region = 570,57,60,42
+Path-Card-Journal-Text-style = FAMILY: {Eons.namedObjects.EBRObject.bodyFamily}; SIZE: 15; WIDTH: 1.0; FOREGROUND: #c07b2d
+Path-Card-Journal-Text-alignment = center, top
+
+# Path card area icon region
+Path-Card-Set-Icon-region = 20,15,89,89
+
+# Path card set icon region
+Path-Card-Area-Icon-region = 40,115,49,30
+
+# Path card token box
+Path-Card-Token-Box-region = 643,121,107,112
+Path-Card-Token-Value-region = 650,138,74,56
+Path-Card-Token-Value-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: 34.2; WEIGHT: WEIGHT_BOLD; WIDTH: 1.0; FOREGROUND: #c07b2d
+Path-Card-Token-Value-alignment = center, bottom
+Path-Card-Token-Name-region = 650,192,80,24
+Path-Card-Token-Name-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTokenNameFamily}; SIZE: {Eons.namedObjects.EBRObject.pathCardTokenNameFontSize}; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.rangerCardTokenNameSpacing}; FOREGROUND: #c07b2d
+Path-Card-Token-Name-alignment = center, bottom
+
+# Path card thresholds
+Path-Card-Presence-region = 642,17,84,84
+Path-Card-Threshold1-region = 642,272,84,84
+Path-Card-Threshold2-region = 542,272,84,84
+
+# Path card threshold text boxes
+Path-Card-Presence-Text-region = 648,29,70,60
+Path-Card-Presence-PerRanger-Text-region = 685,40,40,50
+Path-Card-Threshold1-Text-region = 646,284,70,60
+Path-Card-Threshold1-PerRanger-Text-region = 683,295,40,50
+Path-Card-Threshold2-Text-region = 546,284,70,60
+Path-Card-Threshold2-PerRanger-Text-region = 583,295,40,50
+Path-Card-Threshold-Text-style = FAMILY: {Eons.namedObjects.EBRObject.titleFamily}; SIZE: 34.0; WEIGHT: WEIGHT_BOLD; TRACKING: -0.05; WIDTH: 1.0; FOREGROUND: #FFFFFF
+Path-Card-Threshold-Text-alignment = center, bottom
+Path-Card-Threshold-PerRanger-Text-style = FAMILY: {Eons.namedObjects.EBRObject.symbolFamily}; SIZE: 20.0; WEIGHT: WEIGHT_BOLD; WIDTH: 1.0; FOREGROUND: #FFFFFF
+Path-Card-Threshold-PerRanger-Text-alignment = left, bottom
+
+# Path card text
+Path-Card-Text-region = 38,364,682,636
+Path-Card-Text-style = FAMILY: {Eons.namedObjects.EBRObject.bodyFamily}; SIZE: {Eons.namedObjects.EBRObject.bodyFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.bodyFontSpacing}; FOREGROUND: #000000
+Path-Card-Text-alignment = left, top
+
+## Challenge effects
+#Used to set where to draw the first challenge box & its text
+Path-Card-Challenge-Start-region = 0,864,750,137
+Path-Card-Challenge-Text-Start-region = 130,872,602,120
+#Sets the amount to "push up" each challenge effect drawn after the first
+Path-Card-Challenge-Height = 135
+
+Path-Card-Challenge-style = FAMILY: {Eons.namedObjects.EBRObject.challengeFamily}; SIZE: {Eons.namedObjects.EBRObject.challengeFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.challengeFontSpacing}; FOREGROUND: #FFF4CD
+Path-Card-Challenge-alignment = left, middle
+
+# Path card artist credit
+Path-Card-Artist-Icon-region = 32,1016,21,18
+Path-Card-Artist-region = 54,1010,200,26
+Path-Card-Artist-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardFooterFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardFooterFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardFooterFontSpacing}; FOREGROUND: #6d6e71
+Path-Card-Artist-alignment = left, bottom
+
+# Mission card set info
+Path-Card-Set-Info-region = 250,1009,250,32
+Path-Card-Set-Info-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardTokenNameFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardSetInfoFontSize}; WEIGHT: WEIGHT_BOLD; WIDTH: {Eons.namedObjects.EBRObject.rangerCardSetInfoSpacing}; FOREGROUND: #6d6e71
+Path-Card-Set-Info-alignment = center, top
+
+# Path card copyright
+Path-Card-Copyright-region = 598,1012,120,26
+Path-Card-Copyright-style = FAMILY: {Eons.namedObjects.EBRObject.rangerCardFooterFamily}; SIZE: {Eons.namedObjects.EBRObject.rangerCardFooterFontSize}; WEIGHT: WEIGHT_REGULAR; WIDTH: {Eons.namedObjects.EBRObject.rangerCardFooterFontSpacing}; FOREGROUND: #6d6e71
+Path-Card-Copyright-alignment = right, bottom
+
+# Custom tags
+Path-Card-HorizontalBar-tag = hbar
+Path-Card-HorizontalBar-tag-replacement = <image res://ebr/overlays/path/Horizontal-Bar-Path.png>
