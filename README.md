@@ -9,6 +9,6 @@ plugin from within Strange Eons itself under the Toolbox -> Catalog menu option.
 
 Please see developer documentation for Strange Eons at: https://se3docs.cgjennings.ca/dm-index.html
 You can also review the JS docs here: https://se3docs.cgjennings.ca/assets/jsdoc/modules/diy.html
-Finally, the Strange Eons code itself is hosted here: https://github.com/CGJennings/strange-eons
+Finally, the Strange Eons code itself is hosted here: https://github.com/strange-eons/strange-eons
 
 Happy creating!
